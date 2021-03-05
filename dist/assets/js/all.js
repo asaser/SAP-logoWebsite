@@ -1,0 +1,2 @@
+$((function(){$(document).scroll((function(){var o=$(".fixed-top");o.toggleClass("scrolled",$(this).scrollTop()>o.height())}))})),$("#weathe-button").click((function(){window.open("https://asaser.github.io/WeatherAPI/","_blank")})),$("#website-1").click((function(){window.open("https://dgfoto.pl","_blank")})),$("#website-2").click((function(){window.open("https://krzysiekkozorys.pl","_blank")})),$("#website-3").click((function(){window.open("https://www.hjemhage.no","_blank")}));
+//# sourceMappingURL=all.js.map

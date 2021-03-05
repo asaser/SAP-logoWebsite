@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header css */
+.fixed-top.scrolled {
+    background-color: rgba(255, 255, 255, 0.911);
+    transition: background-color 200ms linear;
+  }
+
+.borderLine {
+    height: auto;
+    width: 100px;
+    width: 50%;
+    background-color: #ffffff00;
+    border: 0;
+    border-bottom: 2px solid rgb(131, 2, 2);
+    padding: 10px;
+}
+
+.logoText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headerLinks {
+    font-size: 20px;
+    padding: 2px;
+}
+
+/* navigation */
+
+nav {
+    margin-top: 60px;
+}
+
+.nav-item {
+    margin: 0 15px 0 15px;
+}
+
+/* main-images: section 1 */
+
+.imagesBorder {
+    padding-right:0;
+    padding-left:0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagesText {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.imagesButton {
+    width: 100px;
+}
+
+.imagesButton:hover {
+    background-color: #c44b4bde;
+    color: #000;
+}
+
+/* main-menu: section 2 */
+
+.menuImages {
+    position: relative;
+    margin: -35px 0px 80px 0px;
+}
+
+.menuButton {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.buttonColor {
+    background-color: rgb(106, 105, 107);
+}
+
+.menuSemiCircle .imageSemiCircle {
+    margin: -100px auto 0 auto;
+    display: table;
+}
+
+
+.imageSemiCircle a {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(106, 105, 107);
+}
+
+.imageSemiCircle a span {
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(76, 130, 175);
+    z-index: 1;
+}

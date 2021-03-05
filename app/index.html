@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>SAP-logo</title>
+
+</head>
+
+<body>
+    <header id="main-header" class="fixed-top">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-sm-4 col-md-4 d-flex justify-content-end align-items-center">
+                <form class="form-inline">
+                    <input class="form-control borderLine" type="search" placeholder="Search">
+                    <i class="fas fa-search fa-lg"></i>
+                </form>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <a class="navbar-brand text-dark text-uppercase logoText" href="#">logo</a>
+            </div>
+
+            <div class="col-4 col-sm-6 col-md-4">
+                <a class="text-muted" href="#">
+                    <i class="fab fa-gratipay fa-lg">
+                        <span class="headerLinks">Ulubione</span>
+                    </i>
+                </a>
+                <a class="text-muted" href="#">
+                    <i class="far fa-user-circle fa-lg ">
+                        <span class="headerLinks">Konto</span>
+                    </i>
+                </a>
+                <a class="text-muted" href="https://asaser.github.io/MemoryApp/" target="_blank">
+                    <i class="far fa-futbol fa-lg">
+                        <span class="headerLinks">Gra</span>
+                    </i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/CurrentExchangeReact/#" target="_blank">Current Exchange</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/MovieAppAPI/" target="_blank">IMDB Technical</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/asaser/NoteReact-App" target="_blank">Note App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/MemoryApp/" target="_blank">Memory Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/PlanZajec/#" target="_blank">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/RealTimeClock/" target="_blank">Clock</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://asaser.github.io/SmallKeyboard/" target="_blank">Keyboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="main-images" class="">
+        <div class="container-flex">
+            <div class="row text-center no-gutters">
+                <div class="col-md-8">
+                    <img src="./images/obrazek.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4">
+
+                    <div class="col-md-12 embed-responsive embed-responsive-16by9 imagesBorder">
+                        <iframe class="embed-responsive-item" src="./images/filmik2.mp4" allowfullscreen></iframe>
+                        <div class="carousel-caption text-left imagesText">
+                            <h3>Weather</h3>
+                            <p>Sprawdz pogodę</p>
+                            <div type="button" id="weathe-button" class="btn btn-light btn-sm imagesButton">Check</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 imagesBorder">
+                        <img src="./images/obrazek.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-menu" class="">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-lg-4 menuImages">
+                    <button id="website-1" class="btn buttonColor menuButton">Website1</button>
+                </div>
+
+                <div class="col-md-4 col-lg-4 menuImages menuSemiCircle">
+                    <button id="website-2" class="btn buttonColor button-w menuButton">Website2</button>
+
+                    <!-- painting semi circle -->
+                    <div class="imageSemiCircle">
+                        <a>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 menuImages">
+                    <button id="website-3" class="btn buttonColor menuButton">Website 3</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-video">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="embed-responsive embed-responsive-16by9 mb-5">
+                        <iframe class="embed-responsive-item" src="./images/filmik.mp4" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+</script>
+<script src="./assets/js/main.js"></script>
+
+</html>
